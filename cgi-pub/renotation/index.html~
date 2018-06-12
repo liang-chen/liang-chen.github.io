@@ -1,0 +1,20 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<body onload="runcgi()">
+<head>
+<script language="javascript"><!~~
+function runcgi(){
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    window.location.href='renotate.cgi?height='+h+'&width='+w;
+}
+// ~~>
+</script>
+</head>
+</body>
+</html>
+ -->
+ 
+ 
+<a href="notation.pdf">notation</a>

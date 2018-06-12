@@ -1,0 +1,52 @@
+# jemdoc: menu{MENU}{index.html}, nofooter, title{Liang Chen}
+
+~~~
+{}{img_left}{files/home_profile.jpg}{profile}{131}{160}{http://homes.soic.indiana.edu/chen348/}
+{{<p class = "fancy">
+Liang Chen
+</p>}}
+Music Infomatics Ph.D. Candidate \n 
+[http://www.soic.indiana.edu/ School of Informatics and Computing] \n
+[http://www.iub.edu/ Indiana University Bloomington]\n
+901 E. 10th Street \n
+Bloomington, IN, 47408 \n 
+Office: Info West 313 \n
+Email: /chen348/ \[@\] indiana \[DOT\] edu
+~~~
+
+== About me
+I'm currently a Ph.D. candidate in Music Informatics at Indiana University Bloomington, advised by Prof. [http://music.informatics.indiana.edu/~craphael/ Christopher Raphael].\n
+My research interest is to apply computational approaches and statistical models to address the problems related to the acquisition, analysis and processing of music data. Some specific projects include the scalable system for Optical Music Recognition (OMR), automatic music renotation from OMR, and expressive instrument synthesis. In essence, my research explores how to better combine the *technology* such as AI, Computer Vision and HCI, and the *music* to create useful and interesting applications.  
+
+== {{<img src="files/news_icon.png" width="50" height="50">}}
+I've created a thesis [https://github.com/liang-chen/PhDThesisTemplate latex template] to facilitate the people who may need to spend much time formatting their thesis due to the [https://graduate.indiana.edu/thesis-dissertation/formatting/doctoral.html official requirements] of our school.\n
+If you like it, consider starring my repo, thanks!  
+
+== Education
+- Ph.D., Music Informatics, Indiana University Bloomington, 2018.  
+- M.S., Artifical Neural Networks Lab, Institute of Semiconductors, Chinese Academy of Sciences, 2012.
+- B.S., Microelectronics, Shanghai Jiao Tong University, 2009.
+
+== Research
+- Optical Music Recognition
+- Music Renotation
+- Human-in-the-loop Computation \n
+[research.html Find out more].
+
+== Conference Papers
+. *Liang Chen*, Christopher Raphael, \"Renotation of Optical Music Recognition Data\", SMC, 2017. \[[http://smc2017.aalto.fi/media/materials/proceedings/SMC17_p287.pdf pdf]\]
+. Sanna Wager, *Liang Chen*, Minje Kim, Christopher Raphael, \"Towards Expressive Instrument Synthesis Through Smooth Frame-By-Frame Reconstruction: From String To Woodwind\", ICASSP, 2017. \[[papers/icassp2017.pdf pdf]\]
+. *Liang Chen*, Erik Stolterman, Christopher Raphael, \"Human Interactive Optical Music Recognition\", ISMIR, 2016. \[[https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/106_Paper.pdf pdf]\]
+. *Liang Chen*, Kun Duan, \"MIDI-Assisted Egocentric Optical Music Recognition\", WACV, 2016. \[[papers/wacv16_ego_omr.pdf pdf]\]
+. *Liang Chen*, Christopher Raphael, \"Human Directed Optical Music Recognition\", Electronic Imaging, 2016. \[[papers/human_directed_omr_drr.pdf pdf]\]
+. *Liang Chen*, Rong Jin, Christopher Raphael, \"Renotation from Optical Music Recognition\", Mathematics and Computation in Music, 2015. \[[papers/mcm15.pdf pdf]\]
+#. Liang Chen, Weijun Li, Chen Chen, "Research on the Principle of Homology-Continuity in Image Degradation\", AICI, 2011.\[[http://link.springer.com/chapter/10.1007/978-3-642-23887-1_32 pdf]\]
+\n
+
+== Workshop Papers
+. *Liang Chen*, Rong Jin, Christopher Raphael, Human-Guided Recognition of Music Score Images, DLfM 2017. \[[papers/dlfm17.pdf pdf]\]
+. Christopher Raphael, *Liang Chen*, Yucong Jiang, Rong Jin, Erik Stolterman, Optical Music Recognition with Human Labeled Constraints, CHI Workshop on Human-Centred Machine Learning, 2016. \[[http://www.doc.gold.ac.uk/~mas02mg/HCML2016/HCML2016_paper_3.pdf pdf]\]
+
+== Posters
+. *Liang Chen*, Rong Jin, Simo Zhang, Stefan Lee, Zhenhua Chen, David Crandall, A Hybrid HMM-RNN Model for Optical Music Recognition, ISMIR Late Breaking, 2016. \[[https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/08/chen-hybrid.pdf pdf]\] \[[files/ismir_lbd_16.pdf poster]\]
+. *Liang Chen*, Christopher Raphael, \"Ceres: An Interactive Optical Music Recognition System\", ISMIR Late Breaking, 2015. \[[http://ismir2015.uma.es/LBD/LBD10.pdf pdf]\] \[[files/ismir_lbd.pdf poster]\]

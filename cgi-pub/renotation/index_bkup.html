@@ -1,0 +1,27 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<body onload="runcgi()">
+<head>
+<script language="javascript"><!~~
+function runcgi(){
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    window.location.href='renotate.cgi?height='+h+'&width='+w;
+}
+// ~~>
+</script>
+</head>
+</body>
+</html>
+ -->
+
+<?php
+echo 'here'
+$files = scandir('.');
+sort($files); // this does the sorting
+foreach($files as $file){
+	echo 'haha'
+}
+
+?>

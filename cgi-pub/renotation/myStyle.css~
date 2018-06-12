@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: Bravura;
+    src: url("Bravura.otf") format("otf");
+}
+
+p {
+    font-family: Bravura;
+}

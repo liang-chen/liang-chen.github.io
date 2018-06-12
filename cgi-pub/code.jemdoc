@@ -1,0 +1,23 @@
+# jemdoc: menu{MENU}{code.html}, nofooter  
+= Code
+
+== [https://github.com/liang-chen/MuseScore/tree/omr/omr Lightweight OMR for MuseScore]
+
+Automatic system segmentation to facilitate double-view score alignment.
+
+##== [https://github.com/liang-chen/Vintager Vintager] (Under Construction)
+
+##Music symbol detector and annotator.
+
+== [https://github.com/liang-chen/AnChiPy AnChiPy]
+
+A Python application that converts text in Simplified Chinese to traditional literature format. Designed for personal interest. 
+
+##Some examples:
+
+##input: [files/anchipy/input1.txt input1] [files/anchipy/input2.txt input2]
+
+##output: [files/anchipy/output1.jpg output1] [files/anchipy/output2.jpg output2]
+
+
+

@@ -1,0 +1,52 @@
+# jemdoc: menu{MENU}{research.html}, nofooter  
+= Recent Projects
+
+== Human-Interactive Optical Music Recognition (ongoing) 
+DLfM'17: [https://sites.google.com/site/interactiveomr17/ Project Homepage]\n
+ISMIR'16: [files/ismir_16_poster.pdf Poster], [http://music.informatics.indiana.edu/papers/ismir16/ Project Homepage]\n
+HCML'16: [files/hcml_poster.pdf Poster], [files/human_omr_actions.mp4 Bird's-eye-view video]\n
+ISMIR'15: [files/ismir_lbd.pdf Poster], [http://music.informatics.indiana.edu/papers/drr16/ Project Homepage]\n
+Tutorial: [https://liang-chen.gitbooks.io/ceres-system-tutorial/content/ Link]\n
+OMR proofreading is laborious if it's completely left to human. To improve the efficiency of OMR system, we try to combine the recognition and human proofreading into a single computational loop. Since our recognizers are highly constrained, a small amount of instruction may introduce significant improvements.
+We demonstrated in our project that Human-Directed OMR requested much fewer human operations than notation systems.
+
+== Concatenative Instrumental Sound Synthesis
+[http://homes.soic.indiana.edu/scwager/css.html Project Homepage]
+
+== HMM-RNN for Optical Music Recognition
+[https://github.com/liang-chen/omr_lstm Project Homepage]
+
+== MIDI-Assisted Egocentric Optical Music Recognition 
+[files/data.tar.gz Dataset], [files/wacv_poster.pdf Poster]\n
+An OMR framework for egocentric applications. The idea is to incorporate MIDI data into OMR process to achieve better performance. Our experiments focused on static score images acquired with *Google Glass*. The task is more challenging than offline OMR due to various degradations of egocentric images, such as noise, motion blur and distortion. We employed methodologies different from traditional OMR which can adapt to our new application scenario.
+      
+== Renotation from Optical Music Recognition (ongoing)
+New Version:\n
+[http://music.informatics.indiana.edu/papers/smc17/ Project Homepage]\n
+We propose a new model for renotation, formulated as a quadratic programming problem. The notation graph we constructed contain three types of edges: desired distance edge, alignment edge and conflict edge. The first type is soft constraint, expressed in the quadratic terms; the second is linear equality (hard) constraint and the last one is linear inequality (hard) constraint. The Mehrotra predictor-corrector interior-point method is applied for the optimization.
+
+Old Version:\n
+[http://music.informatics.indiana.edu/papers/mcm15/ Project Homepage]\n
+One of the most important post-omr applications is *Renotation*, to arrange, format and render music symbols from recognized results.
+For this end, we constructed a connected primitive graph, which bridges musical primitives with three types of edges:
+*horizontal*, *vertical* and *conflict*, in terms of the primitives' spatial relations.
+This graph facilitated the so-called "Force-Directed Rendering" of music notation. In the meantime, we applied Dynamic Programming to determine the line breaks for page layout.\n
+The idea was demonstrated on our score-to-parts and automatic transposition experiments.
+
+== /Ceres/ Optical Music Recognition System
+[http://music.informatics.indiana.edu/papers/icpram15/ Project Homepage], [files/openhouse_2015_omr.pdf 2015 Poster]\n
+OMR is also known as Music OCR, which is aimed to convert scanned music scores into computer-readable formats. 
+Based on OMR, we'll be able to generate symbolic data from score images, with which we can analyze, process and play the music.\n
+The system uses multiple grammatically constrained graphical models to recognize different sorts of musical symbols. The symbol-level configuration is then explored based on a conflict-resolving process.
+The primitive-level proofreading is used by the system to correct recognition errors. 
+
+== Musical Score Recognition via scene understanding 
+[files/omr-poster-openhouse.pdf Poster] (/Excellent Project Award/, SOIC Robotics Open House, 2014)\n
+This was my second-year independent study project in IU's [http://vision.soic.indiana.edu/ Computer Vision Lab]. 
+Dr. [http://www.cs.indiana.edu/~kduan/ Kun Duan] and Prof. [http://www.cs.indiana.edu/~djcran/ David Crandall] offered many insightful suggestions for this project.
+We tried to build a 2-layer holistic scene model (CRF model) to represent the monophonic music score at /measure/ level.
+Measure is decomposed into symbols and symbol into parts. The parts model was trained via HOG feature extractor and Linear SVM, while the structural parameters were learnt through Structured-SVM. 
+\n
+Pros: tree structure, very fast inference\n
+Cons: unable to recover from the failure of lower level detection.\n 
+Possible way to conquer: involve human into the computational loop.

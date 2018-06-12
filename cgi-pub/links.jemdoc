@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{links.html}, nofooter  
+= Useful Links
+
+- [https://www.sgi.com/tech/stl/ STL programmer's guide]
+- [http://sourcemaking.com/design_patterns Design Patterns] 
+- [http://scikit-learn.org/ Scikit machine learning package (Python)] 
+- [https://docs.python.org/2/howto/functional.html Functional Programming (Python)]
+- [http://nitens.org/taraborelli/cvtex Typesetting your CV]
+- [http://www.music.mcgill.ca/~gary/conferences.html Music Technology Conferences]
+- [http://www3.cs.stonybrook.edu/~algorith/ Common Algorithm Repository]
+- [http://rypress.com RyPress]
+- [http://www.gutenberg.org An ebook library]
+- [https://class.stanford.edu/courses/Engineering/CVX101/Winter2014/about Take a look at convex optimization]
+- [http://theanalysisofdata.com/gl/thesis_lebanon.pdf Riemannian Geometry and Statistical Machine Learning]
+- [http://www.geeksforgeeks.org/data-structures/ Data Structures]
+- [https://www.cs.princeton.edu/courses/archive/spring07/cos424/papers/boosting-survey.pdf Take a look at boosting]
+- [http://en.wikipedia.org/wiki/B%C3%A9zier_curve Bézier curve]
+- [http://gehrcke.de/2014/02/distributing-a-python-command-line-application/ Distribute Python Application]
+- [http://pomax.github.io/bezierinfo More on Bézier curve]
+
